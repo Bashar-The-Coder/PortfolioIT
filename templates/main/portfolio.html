@@ -1,100 +1,161 @@
-{% extends 'base.html' %}
-{% block content %}
-{% load static %}
-
-
+{% extends 'base.html' %} {% block content %} {% load static %}
 
 <section id="portfolio" class="portfolio section-bg">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Portfolio</h2>
-        <p>Within this portfolio, you'll find a curated collection of projects showcasing my proficiency in data analysis. I specialize in extracting, cleaning, and visualizing data to unveil hidden patterns and trends. My work aims to empower businesses with actionable insights.</p>
-      </div>
-
-      <div class="row" data-aos="fade-up">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li class="filter-active">All</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="{% static 'assets/img/portfolio/Project01(sales analysis).png' %}" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="https://youtu.be/EuJ19OqcdlY" target = "_blank" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="{% static 'assets/img/portfolio/Project-02(profitloss).png' %}" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="https://youtu.be/4SZnz1DcVxY"  target = "_blank" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <!--project-3-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="{% static 'assets/img/portfolio/Project-03(SalesmanPerformance).png' %}" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="https://youtu.be/ftzldyaDWAs"  target = "_blank" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <!--project-4-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="{% static 'assets/img/portfolio/Project-04(Customer-Due).png' %}" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="https://youtu.be/pBvxGs-pH6I"  target = "_blank" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <!--project-5-->
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="{% static 'assets/img/portfolio/Project-5.png' %}" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="https://youtu.be/MlhB4cRALxg"  target = "_blank" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-        <!--project-6-->
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="{% static 'assets/img/portfolio/Project-6.png' %}" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="https://youtu.be/59oJ7CL7X5A"  target = "_blank" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <!--project-7-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="{% static 'assets/img/portfolio/project-7.png' %}" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="https://youtu.be/6vBCvrLY7n8"  target = "_blank" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-
+  <div class="container">
+    <div class="section-title">
+      <h2>Portfolio</h2>
+      <p>
+        Within this portfolio, you'll find a curated collection of projects
+        showcasing my proficiency in IT Automation & python Scripting.
+      </p>
     </div>
-  </section>
 
-  {% endblock %}
+    <div class="row" data-aos="fade-up">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <ul id="portfolio-flters">
+          <li class="filter-active">All</li>
+        </ul>
+      </div>
+    </div>
+
+    <div
+      class="row portfolio-container"
+      data-aos="fade-up"
+      data-aos-delay="100"
+    >
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+          <img
+            src="{% static 'assets/img/portfolio/Project01(sales analysis).png' %}"
+            class="img-fluid"
+            alt=""
+          />
+          <div class="portfolio-links">
+            <a
+              href="https://youtu.be/EuJ19OqcdlY"
+              target="_blank"
+              title="More Details"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+          <img
+            src="{% static 'assets/img/portfolio/Project-02(profitloss).png' %}"
+            class="img-fluid"
+            alt=""
+          />
+          <div class="portfolio-links">
+            <a
+              href="https://youtu.be/4SZnz1DcVxY"
+              target="_blank"
+              title="More Details"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <!--project-3-->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+          <img
+            src="{% static 'assets/img/portfolio/Project-03(SalesmanPerformance).png' %}"
+            class="img-fluid"
+            alt=""
+          />
+          <div class="portfolio-links">
+            <a
+              href="https://youtu.be/ftzldyaDWAs"
+              target="_blank"
+              title="More Details"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <!--project-4-->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+          <img
+            src="{% static 'assets/img/portfolio/Project-04(Customer-Due).png' %}"
+            class="img-fluid"
+            alt=""
+          />
+          <div class="portfolio-links">
+            <a
+              href="https://youtu.be/pBvxGs-pH6I"
+              target="_blank"
+              title="More Details"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <!--project-5-->
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+          <img
+            src="{% static 'assets/img/portfolio/Project-5.png' %}"
+            class="img-fluid"
+            alt=""
+          />
+          <div class="portfolio-links">
+            <a
+              href="https://youtu.be/MlhB4cRALxg"
+              target="_blank"
+              title="More Details"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!--project-6-->
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+          <img
+            src="{% static 'assets/img/portfolio/Project-6.png' %}"
+            class="img-fluid"
+            alt=""
+          />
+          <div class="portfolio-links">
+            <a
+              href="https://youtu.be/59oJ7CL7X5A"
+              target="_blank"
+              title="More Details"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <!--project-7-->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+          <img
+            src="{% static 'assets/img/portfolio/project-7.png' %}"
+            class="img-fluid"
+            alt=""
+          />
+          <div class="portfolio-links">
+            <a
+              href="https://youtu.be/6vBCvrLY7n8"
+              target="_blank"
+              title="More Details"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
